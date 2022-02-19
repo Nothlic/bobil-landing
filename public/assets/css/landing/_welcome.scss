@@ -1,0 +1,58 @@
+#section-1 {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+
+  #myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+  }
+
+  #content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffff;
+    z-index: 1;
+
+    .caption {
+      letter-spacing: 4px;
+      font-size: 12px;
+    }
+
+    h1 {
+      font-family: "Eurostile Bold";
+    }
+  }
+
+  #button-go {
+    position: absolute;
+    left: 47%;
+    bottom: 5rem;
+    padding: 1rem 2rem;
+    border-radius: 16.57px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    color: #ffff;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+
+    .label {
+      letter-spacing: 2px;
+      font-size: 10px;
+    }
+
+    i {
+      font-size: 10px;
+    }
+  }
+}

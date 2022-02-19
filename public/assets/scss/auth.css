@@ -1,0 +1,21 @@
+.text-main {
+  color: #334150;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.p-form {
+  padding: 0 10rem;
+}
+
+.bg-login {
+  background: url(assets/images/loginbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=auth.css.map */

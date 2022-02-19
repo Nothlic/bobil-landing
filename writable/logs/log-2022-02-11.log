@@ -1,0 +1,45 @@
+CRITICAL - 2022-02-11 20:31:03 --> Undefined variable: agent
+#0 /Applications/MAMP/htdocs/bobil-web-v1/app/Views/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 18, Array)
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Home.php(14): view('index')
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->index()
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-02-11 20:36:15 --> Object of class Jenssegers\Agent\Agent could not be converted to string
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Home.php(22): view('index', Array)
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2022-02-11 22:50:25 --> Call to a member function isMobile() on null
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Home.php(37): view('detail')
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->detail()
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2022-02-11 22:50:27 --> Call to a member function isMobile() on null
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('detail', Array, true)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Home.php(37): view('detail')
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->detail()
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}

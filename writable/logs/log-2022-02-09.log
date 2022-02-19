@@ -1,0 +1,76 @@
+CRITICAL - 2022-02-09 07:19:55 --> Call to undefined function in_group()
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('layouts/admin/h...', Array, true)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Admin.php(31): view('layouts/admin/h...', Array)
+#4 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Admin.php(26): App\Controllers\Admin->render('admin/index', Array)
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Admin->index()
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-02-09 07:26:05 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('layouts/admin/h...', Array, true)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Admin.php(31): view('layouts/admin/h...', Array)
+#4 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Admin.php(26): App\Controllers\Admin->render('admin/index', Array)
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Admin->index()
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2022-02-09 07:31:24 --> Call to undefined method Myth\Auth\Authentication\LocalAuthenticator::getRoles()
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\AuthController->attemptLogin()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2022-02-09 07:32:08 --> Cannot access protected property Myth\Auth\Authentication\LocalAuthenticator::$user
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\AuthController->attemptLogin()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2022-02-09 07:34:48 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/AuthController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 102, Array)
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\AuthController->attemptLogin()
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2022-02-09 07:35:02 --> syntax error, unexpected ';', expecting ')'
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(274): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(892): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(416): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2022-02-09 07:36:23 --> Undefined offset: 0
+#0 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/AuthController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Applications/M...', 102, Array)
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\AuthController->attemptLogin()
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2022-02-09 19:23:02 --> Invalid file: admin/welcome.php
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/welcome.p...')
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('admin/welcome', Array, true)
+#2 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Information.php(28): view('admin/welcome', Array)
+#3 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Information.php(21): App\Controllers\Information->render('admin/welcome', Array)
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Information->welcome()
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Information))
+#6 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}

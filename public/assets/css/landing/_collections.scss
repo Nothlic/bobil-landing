@@ -1,0 +1,81 @@
+#collections {
+  position: relative;
+  background-color: #0f0f0f;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  .collections-content-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    max-width: 1440px;
+  }
+  .collections-slider {
+    .slick-track {
+      height: 450px;
+      width: 7200px;
+      transform: translate3d(-1440px, 0px, 0px);
+
+      img {
+        width: 1440px;
+        height: 450px;
+        object-fit: cover;
+        border-bottom-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+      }
+    }
+  }
+
+  .title-collections {
+    font-size: 42px;
+    color: #fff;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+  }
+
+  .collections-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+
+    .collections-content {
+      position: relative;
+      img {
+        width: 365px;
+        height: 255px;
+        border-radius: 25px;
+        object-fit: cover;
+        z-index: 0;
+      }
+
+      .collection-info-wrapper {
+        position: absolute;
+        bottom: 4px;
+        right: -1px;
+        z-index: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        padding: 10px 1.5rem 10px 1.5rem;
+        background-color: #181818;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        min-width: 180px;
+
+        .collection-name {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+
+        .collection-logo {
+          img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+}

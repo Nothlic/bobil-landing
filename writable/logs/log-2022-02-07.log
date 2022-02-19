@@ -1,0 +1,20 @@
+CRITICAL - 2022-02-07 06:36:10 --> Invalid file: about.php
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('about', Array, true)
+#2 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Home.php(17): view('about')
+#3 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->about()
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#8 {main}
+CRITICAL - 2022-02-07 06:36:31 --> Invalid file: about.php
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('about', Array, true)
+#2 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/Home.php(17): view('about')
+#3 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\Home->about()
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#8 {main}

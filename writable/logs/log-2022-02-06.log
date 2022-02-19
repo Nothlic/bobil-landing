@@ -1,0 +1,15 @@
+ERROR - 2022-02-06 08:28:03 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-02-06 08:28:03 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /Applications/MAMP/htdocs/bobil-web-v1/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /Applications/MAMP/htdocs/bobil-web-v1/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 /Applications/MAMP/htdocs/bobil-web-v1/app/Controllers/AuthController.php(89): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(935): App\Controllers\AuthController->attemptLogin()
+#8 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/bobil-web-v1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 /Applications/MAMP/htdocs/bobil-web-v1/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#12 {main}

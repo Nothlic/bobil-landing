@@ -1,0 +1,93 @@
+.file-wrapper {
+  position: relative;
+
+  .is-file {
+    & ~ input {
+      pointer-events: none;
+    }
+  }
+}
+
+.file-plus {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border: 1px dashed #e8ebf3;
+  color: #e8ebf3;
+  font-size: 42px;
+  position: relative;
+  margin: 5px 0;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: #10172a;
+    border-color: #10172a;
+  }
+}
+
+.file-input {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border: 1px dashed #e8ebf3;
+  color: #e8ebf3;
+  font-size: 42px;
+  position: relative;
+  margin: 5px 0;
+
+  &.is-file {
+    &:hover {
+      .image-delete-icon {
+        opacity: 1;
+        top: -10px;
+      }
+    }
+  }
+}
+
+.input-file {
+  opacity: 0;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.preview-content {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-delete-icon {
+  cursor: pointer;
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff4e4e;
+  color: white;
+  border-radius: 100%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.input-multi-wrapper {
+  padding: 10px;
+  border: 1px solid #eaeaeaee;
+  border-radius: 8px;
+}
